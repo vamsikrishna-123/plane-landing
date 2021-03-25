@@ -1,0 +1,9 @@
+# plane landing based on altitute
+
+altitude=5000
+if altitude<=3000:
+ print 'plane is safe for landing'
+elif altitude>3000 and altitude<6000:
+  print 'atleast allow the pilot to try for landing'
+elif altitude>6000:
+  print 'dont allow for landing'
